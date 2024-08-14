@@ -1,0 +1,72 @@
+# Eclipse-specific files
+.metadata/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+bin/
+*.launch
+
+# Java build output
+target/
+build/
+out/
+
+# Maven or Gradle directories (if using Maven or Gradle)
+.mvn/
+.gradle/
+pom.xml
+build.gradle
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories (if using dependency management tools)
+dependency-check-report/
+
+# JUnit reports
+test-*.xml
+
+# Local configuration files
+*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Log files
+*.log
+*.out
+*.err
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore JAR files
+*.jar
+
+# Ignore compiled modules
+*.mod
+*.jmod
+
+# Ignore Eclipse-related build directories
+/.metadata
+/.eclipse
+/.project
+/.classpath
+/.settings/
+
+# Ignore generated files
+/generated/
